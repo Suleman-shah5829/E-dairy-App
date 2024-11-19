@@ -1,33 +1,33 @@
-E-Diary is a digital diary application that helps users record and manage their daily activities, thoughts, and tasks in a secure and organized way. With features like tagging, search, and analytics, it's the perfect companion for staying reflective and productive.
+E-Diary is a digital diary application that helps users record and manage their daily activities, thoughts, and tasks in a secure and organized way. With features like tagging, search, and analytics, it's the perfect companion for staying reflective and productive.																																																																										
 
 🚀 Features
 📅 Daily Entries: Create and manage diary entries for specific dates.
-
+																																																																																																																																																										
 🛠️ Tech Stack
 Frontend: React.js, Vite, Bootstrap
 Backend: Node.js, Express.js
 Database: MySQL
-
+																																																																																																																																																							
 Screenshots:
 ![Home Page](./assets/home-page.png)
-
+																																																																																																																																																												
 🖥️ Installation
 Follow these steps to set up and run the project locally:
+																																																																																																																																																				
+1. Clone the Repository:																																																																				
+   run the command																																																																																																																																													
+   git clone https://github.com/yourusername/e-dairy-App.git																																																																																																														
+   cd e-dairy-App																																																																																																																																																					
 
-1. Clone the Repository:
-   run the command
-   git clone https://github.com/yourusername/e-dairy-App.git
-   cd e-dairy-App
+2. Install Dependencies																																																																																																																																																	
 
-2. Install Dependencies
+For Backend:																																																																												
+Navigate to the backend folder and install dependencies:																																																																																																																																	
+run command:																																																																								
+cd e-diary-backend																																																																																																		
+npm install																																																																																					
 
-For Backend:
-Navigate to the backend folder and install dependencies:
-run command:
-cd e-diary-backend
-npm install
-
-For Frontend:
+For Frontend:																																																																															
 Navigate to the frontend folder and install dependencies:
 run command:
 cd ../e-diary-frontend
