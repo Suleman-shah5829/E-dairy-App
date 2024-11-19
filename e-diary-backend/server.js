@@ -31,6 +31,7 @@ app.use("", (req, res, next) => {
 });
 // Routes
 // GET all entries
+
 app.get("/entries", (req, res) => {
   db.query("SELECT * FROM entries", (err, results) => {
     if (err) {
