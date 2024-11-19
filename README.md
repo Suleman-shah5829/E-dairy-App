@@ -9,6 +9,7 @@ Backend: Node.js, Express.js
 Database: MySQL
 
 Screenshots:
+![Home Page](./assets/home-page.png)
 
 🖥️ Installation
 Follow these steps to set up and run the project locally:
