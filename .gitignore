@@ -6,4 +6,4 @@ logs/
 *.log
 
 # Backend environment files
-backend/.env
+e-diary-backend/.env
