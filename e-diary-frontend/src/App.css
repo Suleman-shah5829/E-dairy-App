@@ -1,0 +1,134 @@
+/* General styling for the app */
+.app {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 20px 300px;
+  padding: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #0eb8ad;
+  box-sizing: border-box;
+
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.entry-form,
+.entry {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.entry-form input,
+.entry-form textarea,
+.entry input,
+.entry textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.entry-form button,
+.entry button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.entry-form button {
+  background-color: #007bff;
+  color: white;
+}
+
+.entry button {
+  background-color: #28a745;
+  color: white;
+  margin-right: 10px;
+}
+
+.entry button:last-child {
+  background-color: #dc3545;
+}
+
+.entry h3 {
+  margin-top: 0;
+}
+
+textarea {
+  resize: vertical;
+}
+
+/* Specific styling for editing state */
+.editing {
+  border: 2px solid #007bff;
+  padding: 15px;
+}
+
+.editing input,
+.editing textarea {
+  border-color: #007bff;
+}
+/* the follwing is the css for the old react app:*/
+
+/* app.cc
+.app {
+  max-width: 800px;
+  margin: 20px 300px;
+  padding: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-sizing: border-box;
+
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.entry-form {
+  margin-bottom: 20px;
+}
+
+.entry-form input[type="text"],
+.entry-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.entry-form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.entry-form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.entry-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.entry {
+  padding: 15px;
+  background-color: #007bff;
+} */
