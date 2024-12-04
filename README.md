@@ -46,4 +46,4 @@ npm install
    npm run dev
 
 5. Access the Application:
-   Frontend App: http://localhost:5173 (or the port displayed in your terminal)
+   Frontend App: http://localhost:5173 (or the port displayed in your terminal) .
